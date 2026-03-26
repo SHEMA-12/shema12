@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - SHEMA Veran Portfolio</title>
+    <link rel="stylesheet" href="3style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar">
+        <a href="index.html" class="nav-logo">SHEMA Veran</a>
+        <ul class="nav-links">
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Feedback</h1>
+            <div class="hero-titles">
+                <p class="title-left">Your</p>
+                <p class="title-center">Opinion</p>
+                <p class="title-right">Matters</p>
+            </div>
+        </div>
+
+        <div class="hero-numbers">
+            <span>10</span>
+            <span>20</span>
+            <span>30</span>
+            <span>40</span>
+            <span>50</span>
+            <span>60</span>
+            <span>70</span>
+            <span>80</span>
+        </div>
+    </section>
+
+    <!-- FEEDBACK SECTION -->
+    <section class="feedback-section">
+        <h2>Share Your Feedback</h2>
+
+        <!-- FEEDBACK INTRO -->
+        <div class="content-block">
+            <p>
+                I would love to hear your thoughts and feedback about my portfolio website, projects, and work. 
+                Your input helps me improve and grow as a developer and artist. Whether you have suggestions, 
+                compliments, or constructive criticism, please share it below!
+            </p>
+        </div>
+
+        <!-- FEEDBACK FORM -->
+        <div class="content-block">
+            <h3>Feedback Form</h3>
+            <form action="https://formspree.io/f/xgonqvyk" method="POST">
+                
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="feedback-type">Feedback Type:</label>
+                    <select id="feedback-type" name="feedback-type" required>
+                        <option value="">-- Select a type --</option>
+                        <option value="general">General Feedback</option>
+                        <option value="design">Design & Layout</option>
+                        <option value="content">Content & Writing</option>
+                        <option value="functionality">Functionality & Features</option>
+                        <option value="projects">Projects & Work</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="rating">Rate Your Experience:</label>
+                    <div class="rating-group">
+                        <input type="radio" id="rating-1" name="rating" value="1 Star" required>
+                        <label for="rating-1" class="rating-label">⭐</label>
+                        
+                        <input type="radio" id="rating-2" name="rating" value="2 Stars">
+                        <label for="rating-2" class="rating-label">⭐⭐</label>
+                        
+                        <input type="radio" id="rating-3" name="rating" value="3 Stars">
+                        <label for="rating-3" class="rating-label">⭐⭐⭐</label>
+                        
+                        <input type="radio" id="rating-4" name="rating" value="4 Stars">
+                        <label for="rating-4" class="rating-label">⭐⭐⭐⭐</label>
+                        
+                        <input type="radio" id="rating-5" name="rating" value="5 Stars">
+                        <label for="rating-5" class="rating-label">⭐⭐⭐⭐⭐</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="feedback-message">Your Feedback:</label>
+                    <textarea id="feedback-message" name="message" rows="6" placeholder="Please share your thoughts, suggestions, or feedback..." required></textarea>
+                </div>
+
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe" class="checkbox-label">Subscribe to updates about my portfolio and projects</label>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit Feedback</button>
+            </form>
+        </div>
+
+        <!-- FEEDBACK TIPS -->
+        <div class="content-block">
+            <h3>What Kind of Feedback Helps?</h3>
+            <ul>
+                <li><strong>Specific:</strong> Point out exactly what you liked or didn't like</li>
+                <li><strong>Constructive:</strong> Offer suggestions for improvement</li>
+                <li><strong>Honest:</strong> Share your genuine thoughts and opinions</li>
+                <li><strong>Kind:</strong> Remember there's a person behind this portfolio</li>
+                <li><strong>Detailed:</strong> Explain why you feel a certain way</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <!-- SIDE NUMBERS (Right side) -->
+    <div class="story-numbers">
+        <span>10</span>
+        <span>20</span>
+        <span>30</span>
+        <span>40</span>
+        <span>50</span>
+        <span>60</span>
+        <span>70</span>
+        <span>80</span>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <a href="feedback.html" class="footer-link">Feedback</a>
+        <a href="contact.html" class="footer-link">Contact</a>
+        <a href="https://instagram.com/veran" target="_blank" class="footer-link">@Veran</a>
+        <p class="footer-copyright">&copy; 2026 SHEMA SEBAGABO VERAN. All rights reserved.</p>
+    </footer>
+
+    <!-- JAVASCRIPT FOR IMAGE SLIDER -->
+    <script src="3script.js"></script>
+
+</body>
+
+</html>
