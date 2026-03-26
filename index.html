@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHEMA VERAN - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Cormorant+Garamond:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- TOP NAVIGATION (HIDDEN INITIALLY) -->
+    <nav class="navbar-top" id="navbar-top">
+        <a href="index.html" class="logo">SHEMA VERAN</a>
+        <div class="nav-links">
+            <a href="aboutme.html">About Me</a>
+            <a href="projects.html">Projects</a>
+        </div>
+    </nav>
+
+    <!-- MAIN LANDING PAGE -->
+    <section id="landing" class="landing">
+        <!-- VIDEO BACKGROUND -->
+        <div class="video-background">
+            <video id="main-video" class="main-video" autoplay muted loop>
+                <source src="videos/video1.mp4" type="video/mp4">
+            </video>
+            <!-- Dark overlay -->
+            <div class="video-overlay"></div>
+        </div>
+
+        <!-- SIDE NUMBERS -->
+        <div class="side-numbers left-numbers" id="left-numbers"></div>
+        <div class="side-numbers right-numbers" id="right-numbers"></div>
+
+        <!-- CONTENT WRAPPER - ALL TEXT CENTERED -->
+        <div class="content-wrapper">
+            <!-- INTRO TEXT (APPEARS FIRST) -->
+            <div class="intro-section" id="intro-section">
+                <h1 class="intro-text">Rewired For Innovation, Creatively Building</h1>
+            </div>
+
+            <!-- BRAND NAME (APPEARS, SPLITS, MOVES TO TOP) -->
+            <div class="brand-container" id="brand-container">
+                <h1 class="brand-name" id="brand-name">SHEMA VERAN</h1>
+            </div>
+
+            <!-- WELCOME TEXT -->
+            <div class="landing-content" id="landing-content">
+                <h1 class="landing-title">Welcome to my</h1>
+                <h2 class="landing-subtitle">Portfolio Website</h2>
+            </div>
+        </div>
+
+        <!-- VIDEO SLIDER CONTROLS (BOTTOM) -->
+        <div class="video-controls">
+            <button class="video-btn prev-btn" id="prev-video">❮</button>
+            <button class="video-btn next-btn" id="next-video">❯</button>
+        </div>
+    </section>
+
+    <!-- BOTTOM FOOTER NAVIGATION -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="feedback.html">Feedback</a>
+                <a href="contact.html">Contact</a>
+              
+                <span class="footer-divider">|</span>
+                <span class="footer-brand">@Veran</span>
+                <span class="footer-divider">|</span>
+                <span class="footer-copyright">&copy; 2026 SHEMA VERAN. All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
